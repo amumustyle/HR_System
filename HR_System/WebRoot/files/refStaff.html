@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/depart.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css" />
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>	
+</head>
+<body> 
+    <div class="pop-tit">查询员工</div>
+    <form action="" method="post" name="fom7" id="fom7" autocompelete="on">
+        <input type="search" class="search1 fl" placeholder="请输入员工名称">
+        <input type="submit" value="查询" class="search2 fl">
+    </form>
+    
+	<table class="tableshow" id="tableshow">
+        <thead class="even">
+            <td>员工号</td>
+            <td>姓名</td>
+            <td>性别</td>
+            <td>出生日期</td>
+            <td>身份证号</td>
+            <td>部门</td>
+            <td>岗位</td>
+            <td>入职日期</td>
+            <td>形式</td>
+            <td>来源</td>
+            <td><i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i>修改</td>
+            <td><i class="fa fa-trash fa-fw" aria-hidden="true"></i>离职</td>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>
+                    资源
+                </td>
+                <td>
+                    男
+                </td>
+                <td>
+                    1995-03-12
+                </td>
+                <td>
+                    333333333444
+                </td>
+                <td>
+                    技术部
+                </td>
+                <td>
+                    总监
+                </td>
+                <td>
+                    2015-2-3
+                </td>
+                <td>
+                    正式工
+                </td>
+                <td>
+                    社会
+                </td>
+                <td>
+                    <a href="">修改</a>
+                </td>
+                <td>
+                    <a href="leavStaff.html">申请</a>
+
+                </td>
+            </tr>
+        </tbody>
+        <div class="page">
+            当前第1页/共10页
+                <a href="__URL__/mod/pageNow/{$pageNow+1}">下一页</a>
+                <a href="__URL__/mod/pageNow/{$pageCount}">尾页</a>
+        </div>
+    </table>
+</body>
+</html>

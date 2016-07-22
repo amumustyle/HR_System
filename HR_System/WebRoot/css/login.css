@@ -1,0 +1,12 @@
+@charset "utf-8";
+*{margin:0;padding:0}
+body{background:#00b38a;color:#fff;font-family:"Microsoft YaHei"}
+img,button,input{border:none}
+::selection{color:#fff;background:#4ad8bf}
+.login{position:absolute;top:50%;left:50%;width:350px;height:476px;margin-left:-175px;margin-top:-238px;text-align:center}
+.login img{width:170px;height:44px;margin-left:70px;cursor:pointer}
+.login p span{font-size:15px;color:#f74043}
+.lg_input{width:350px;font-size:1.2em;margin:20px auto 10px auto;padding:60px 0 20px 0;background-color:#eafffd}
+.lg_input p{width:300px;height:50px;line-height:50px;margin:0 auto 25px auto;color:#747474}
+.lg_input .input1{width:200px;height:35px;padding-left:5px;background-color:#fff;outline:1px solid #e5e8ce}
+.login-btn{width:100px;height:40px;font-size:1em;float:right;display:inline;margin:10px 8px auto auto;background-color:#00b38a;color:#fff;cursor:pointer;}

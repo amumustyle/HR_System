@@ -1,0 +1,37 @@
+table{width:96%;margin:2% 2%;text-align:center;border-radius:10px;border:1px solid #dce1e5;font-size: 15px;position: relative;}
+tr{width:100%;height:30px}
+th{background-color:#eef3f7;color:#919699}
+td{color:#555;}
+.add,.search,.search1,.search2{display:inline-block;zoom:1;height:30px;border-radius:5px;color:black;line-height:30px;font-size:1em;text-align:center;margin:20px 20px 0 0;background-color:#f2f7fa}
+.add{width:120px;margin:9px 0 2px 4px;}
+.search{width:100px;margin-left: 100px;}
+.search1{width:100px;margin:8px 5px 8px 350px;transition:1.5s;}
+.search2{width:100px;margin:9px 0 2px 4px;}
+.search1:focus{width:300px;}
+.add:hover{color:#e8614b;}
+.notice{position:absolute;color: red;top:50px;left: 200px;}
+.adddep,.chadep{width: 60%; position:absolute;left: 350px;color: #919699;font-weight: 700;}
+.adddep{top:80px;}
+.adddep p,.chadep p{margin-top: 20px;}
+.adddep span{font-size: 8px;position: absolute;left: 23%;text-align: center;visibility: hidden;}
+.dinfor,select{width: 40%; border-radius:5px;height:32px;line-height:32px;border: 1px solid #dce1e5;text-indent: 3px;}
+label{display:inline-block;width: 80px;}
+.chadep{top:170px;}
+.page{position:absolute;bottom:40px;right:100px;color:#919699}
+.page a{color:#e8614b}
+.page a:hover{color:#47bea0}
+.sub-btn,.back-btn{width: 15%; border-radius:5px;height:32px;line-height:32px;font-size:1em;font-weight:700;background-color:#53c7a0;color:#fff;cursor:pointer;border:none;text-align: center;}
+.sub-btn{margin:3% 5% 0 13%;}
+.back-btn{margin:3% 0 0 34%;}
+.sub-btn a,.back-btn a{color: white;}
+.pop-level{position:absolute;bottom:0;right:0;width:100%;height:100%;background:#000;opacity: 0.5;filter:alpha(opacity=50);display:none;color: #47bea0;}
+.pop-tit{height:50px;line-height:50px;font-weight:700;position:relative;text-align:center;border-radius:5px;border-bottom:1px solid #dce1e5;color:#919699}
+/*.pop-tit .del-pop{color:#919699}*/
+.del-pop{position:absolute;top:0;right:0;}
+.odd{background-color:#fff;}
+.even{background-color: #eafffd;}
+
+.month{margin-left: 29%;}
+.date{margin:14px 0 0 12px;display:inline-block;zoom:1;}
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/depart.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.css" />
+	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>	
+</head>
+<body>
+    <div class="header clearfix">
+        <a href="" class="search fl">创建新岗位</a>
+        <a href="addDepart.html" class="add fr" id="add-class">查询岗位员工</a>
+    </div>     
+    <span class="notice">提示：请在下面选择要修改的岗位</span>
+	<table class="tableshow" id="tableshow">
+	    <thead class="even">
+			<td>编号</td>
+			<td>名称</td>
+			<td>类型</td>
+			<td>编制</td>
+			<td><i class="fa fa-pencil-square-o fa-fw" aria-hidden="true"></i>修改</td>
+			<td><i class="fa fa-trash fa-fw" aria-hidden="true"></i>删除</td>
+		</thead>
+        <tbody>
+			<tr>
+				<td>1</td>
+				<td>
+                    前端架构师
+                </td>
+				<td>
+	                技术
+	            </td>
+	            <td>
+	                8
+	            </td>
+	            <td>
+	                <a href="changeStation.html">修改</a>
+	            </td>
+	            <td>
+	                <a href="">删除</a>
+
+	            </td>
+			</tr>
+		</tbody>
+        <div class="page">
+            当前第1页/共10页
+                <a href="__URL__/mod/pageNow/{$pageNow+1}">下一页</a>
+                <a href="__URL__/mod/pageNow/{$pageCount}">尾页</a>
+        </div>
+    </table>
+</body>
+</html>
